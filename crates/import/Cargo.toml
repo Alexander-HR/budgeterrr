@@ -1,0 +1,9 @@
+[package]
+name = "budgeterrr-import"
+description = "Bank statement parsers."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+budgeterrr-core.workspace = true

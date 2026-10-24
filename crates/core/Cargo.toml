@@ -1,0 +1,9 @@
+[package]
+name = "budgeterrr-core"
+description = "Domain types and pure rules. No I/O."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true

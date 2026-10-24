@@ -22,3 +22,14 @@ rustc-ice-*.txt
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Personal financial data: never commit (public repo)
+# Bracketed patterns match any letter case, since git matches case-sensitively on Linux.
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[cC][sS][vV]
+# Databases and their side files (-journal, -wal, -shm)
+*.[dD][bB]
+*.[dD][bB]-*
+*.[sS][qQ][lL][iI][tT][eE]*
+fixtures/private/
