@@ -1,0 +1,20 @@
+[package]
+name = "budgeterrr-app"
+description = "The Dioxus desktop UI and the app service it calls."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "budgeterrr"
+path = "src/main.rs"
+
+[dependencies]
+budgeterrr-core.workspace = true
+budgeterrr-storage.workspace = true
+dioxus.workspace = true
+directories.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
