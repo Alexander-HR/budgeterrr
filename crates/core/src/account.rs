@@ -2,21 +2,21 @@
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct AccountId(pub i64);
 
-/// A bank whose statements the app can import.
+/// A bank whose statements the app can import. In alphabetical order
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Bank {
-    Landsbankinn,
     Arion,
+    Landsbankinn,
 }
 
 impl Bank {
-    /// Every supported bank, in the order the app offers them.
-    pub const ALL: [Bank; 2] = [Bank::Landsbankinn, Bank::Arion];
+    /// Every supported bank, in alphabetical order.
+    pub const ALL: [Bank; 2] = [Bank::Arion, Bank::Landsbankinn];
 
     pub fn name(self) -> &'static str {
         match self {
-            Bank::Landsbankinn => "Landsbankinn",
             Bank::Arion => "Arion",
+            Bank::Landsbankinn => "Landsbankinn",
         }
     }
 }
