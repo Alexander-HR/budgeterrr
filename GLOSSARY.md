@@ -75,9 +75,9 @@ The user's periodic look at a Quarter's income and expenses by Category, and its
 _Avoid_: Report, summary
 
 **Net Income**:
-Total income minus total expenses for a Quarter, excluding Transfers.
+Total income minus total expenses for a Quarter, excluding Transfers and Excluded Transactions.
 _Avoid_: Netto, net result, profit, balance
 
 **Review Queue**:
-The list of Transactions needing the user's attention: uncategorized, carrying an unconfirmed Suggestion, or looking like an unpaired Transfer.
+The list of Transactions needing the user's attention: uncategorized, carrying an unconfirmed Suggestion, or part of a proposed Transfer or Refund that the user hasn't confirmed. Excluded Transactions never appear.
 _Avoid_: Inbox, todo list
