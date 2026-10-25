@@ -3,4 +3,4 @@
 mod service;
 pub mod ui;
 
-pub use service::{AppError, AppResult, AppService};
+pub use service::{AppError, AppResult, AppService, TRANSACTIONS_PER_PAGE, TransactionPage};
