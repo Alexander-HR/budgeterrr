@@ -10,7 +10,6 @@ license = "MIT"
 [workspace.dependencies]
 budgeterrr-core = { path = "crates/core" }
 budgeterrr-storage = { path = "crates/storage" }
-budgeterrr-import = { path = "crates/import" }
 dioxus = { version = "0.7.10", features = ["desktop"] }
 directories = "6.0.0"
 rusqlite = { version = "0.41.0", features = ["bundled"] }
